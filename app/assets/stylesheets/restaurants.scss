@@ -1,0 +1,72 @@
+// Place all the styles related to the Restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.card-resto {
+  width: 250px;
+  height: 175px;
+  box-shadow: 0px 0px 5px #B5B5B5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  .resto-title {
+    font-family: 'Staatliches', cursive;
+    font-size: 24px;
+    text-align: center;
+
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: black;
+
+    padding: 8px 0;
+    margin: 0;
+
+    .link-to {
+      color: white;
+    }
+
+    :hover {
+      color: orange;
+    }
+  }
+
+  .resto-content {
+    padding: 10px;
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
+
+.link-to, .link-to:hover {
+  text-decoration: none;
+  }
